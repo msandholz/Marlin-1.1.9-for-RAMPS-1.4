@@ -17,4 +17,42 @@ Used Components:
 
 1. Set Jumper for Stepperdriver (no no yes | 1/16 step)
 2. Load Marlin Firmware under [http://marlinfw.org/docs/basics/install.html#download]
-3. Edit `Configuration.h`
+3. Edit `Configuration.h` and change the following lines
+   ```
+   126 | #define BAUDRATE 115200
+   ```
+   
+   ```
+   133 | #ifndef MOTHERBOARD
+   134 |    #define MOTHERBOARD BOARD_RAMPS_14_EFB
+   135 | #endif
+   ```
+   
+   ```
+   139 | #define CUSTOM_MACHINE_NAME "Sandholz Engineering"
+   ```
+   
+   ```
+   149 | #define EXTRUDERS 1
+   ```
+   
+   ```
+   152 | #define DEFAULT_NOMINAL_FILAMENT_DIA 1.75
+   ```
+  
+   ```
+   313 | #define TEMP_SENSOR_1 0
+   314 | #define TEMP_SENSOR_2 0
+   315 | #define TEMP_SENSOR_3 0
+   316 | #define TEMP_SENSOR_4 0
+   317 | #define TEMP_SENSOR_BED 1
+   318 | #define TEMP_SENSOR_CHAMBER 0
+   ```
+   
+   ```
+   416 | #define PIDTEMPBED
+   ```
+   
+   ```
+   611 | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 95 }
+   ```
