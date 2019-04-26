@@ -16,4 +16,4 @@ Used Components:
 # Installation
 
 1. Set Jumper for Stepperdriver (no no yes | 1/16 step)
-2. 
+2. Load Marlin Firmware and edit ´Configuration.h´
