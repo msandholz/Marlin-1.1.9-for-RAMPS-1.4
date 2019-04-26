@@ -10,7 +10,10 @@ Documentation can be found here:
 Used Components:
 - RAMPS 1.4 Board
 - Arduino-Mega 2560
-– Reprap Discount 12864 LCD – fall Graphic Display with SD-Cardreader
+- Reprap Discount 12864 LCD – fall Graphic Display with SD-Cardreader
 - Stepperdriver Type A4988 (16 Steps)
 
 # Installation
+
+1. Set Jumper for Stepperdriver (no no yes | 1/16 step)
+2. 
