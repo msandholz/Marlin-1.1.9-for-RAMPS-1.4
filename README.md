@@ -86,4 +86,7 @@ Used Components:
    ```
    1659 | #define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
    ```
+   4. Load `U8glib` and copy it into the `library-folder` of the Arduino IDE.
+   
+   5. Compile Files and upload it to Arduino-Mega 2560 - Board
    
