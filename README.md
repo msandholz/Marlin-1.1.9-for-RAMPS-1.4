@@ -29,7 +29,7 @@ Used Components:
    ```
    
    ```
-   139 | #define CUSTOM_MACHINE_NAME "Sandholz Engineering"
+   139 | #define CUSTOM_MACHINE_NAME " Sandholz Engineering"
    ```
    
    ```
