@@ -56,3 +56,35 @@ Used Components:
    ```
    611 | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 95 }
    ```
+
+   ```
+   619 | #define DEFAULT_MAX_FEEDRATE          { 250, 250, 8, 25 }
+   ```
+   
+   ```
+   648 | #define DEFAULT_XJERK                 20.0
+   649 | #define DEFAULT_YJERK                 20.0
+   650 | #define DEFAULT_ZJERK                  0.4
+   651 | #define DEFAULT_EJERK                  5.0
+   648 | 
+   ```
+   
+   ```
+   1257 | // Preheat Constants
+   1258 | #define PREHEAT_1_TEMP_HOTEND 190
+   1259 | #define PREHEAT_1_TEMP_BED     60
+   1260 | #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
+   1261 | 
+   1262 | #define PREHEAT_2_TEMP_HOTEND 235
+   1263 | #define PREHEAT_2_TEMP_BED     80
+   1264 | #define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
+   ```
+
+   ```
+   1429 | #define SDSUPPORT
+   ```
+   
+   ```
+   1659 | #define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+   ```
+   
