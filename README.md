@@ -69,6 +69,14 @@ Used Components:
    ```
    
    ```
+   1509 | #define SPEAKER
+   
+   1518 | #define LCD_FEEDBACK_FREQUENCY_DURATION_MS 2
+   1519 | #define LCD_FEEDBACK_FREQUENCY_HZ 1000
+   
+   ```
+   
+   ```
    1257 | // Preheat Constants
    1258 | #define PREHEAT_1_TEMP_HOTEND 190
    1259 | #define PREHEAT_1_TEMP_BED     60
