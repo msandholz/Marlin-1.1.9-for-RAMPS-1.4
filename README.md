@@ -66,7 +66,6 @@ Used Components:
    649 | #define DEFAULT_YJERK                 20.0
    650 | #define DEFAULT_ZJERK                  0.4
    651 | #define DEFAULT_EJERK                  5.0
-   648 | 
    ```
    
    ```
