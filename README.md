@@ -54,6 +54,13 @@ Used Components:
    ```
    
    ```
+   530 | // Mechanical endstop with COM to ground and NC to Signal uses "false" here (most common setup).
+   531 | #define X_MIN_ENDSTOP_INVERTING true // set to true to invert the logic of the endstop.
+   532 | #define Y_MIN_ENDSTOP_INVERTING true // set to true to invert the logic of the endstop.
+   533 | #define Z_MIN_ENDSTOP_INVERTING true // set to true to invert the logic of the endstop.
+   ```
+   
+   ```
    611 | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 95 }
    ```
 
