@@ -62,6 +62,14 @@ Used Components:
    ```
    
    ```
+   553 | #define X_DRIVER_TYPE  TMC2208_STANDALONE
+   554 | #define Y_DRIVER_TYPE  TMC2208_STANDALONE
+   555 | #define Z_DRIVER_TYPE  TMC2208_STANDALONE
+   559 | #define E0_DRIVER_TYPE TMC2208_STANDALONE
+   560 | #define E1_DRIVER_TYPE TMC2208_STANDALONE
+   ```
+
+   ```
    611 | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 95 }
    ```
 
