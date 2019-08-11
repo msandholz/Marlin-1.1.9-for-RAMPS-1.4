@@ -12,6 +12,7 @@ Used Components:
 - Arduino-Mega 2560
 - Reprap Discount 12864 LCD – full Graphic Display with SD-Cardreader
 - Stepperdriver Type A4988 (16 Steps)
+- Stepperdriver Type TMC2208 v1.1
 
 # Installation
 
