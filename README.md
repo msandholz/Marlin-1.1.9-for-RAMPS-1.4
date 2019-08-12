@@ -83,15 +83,11 @@ Used Components:
    650 | #define DEFAULT_ZJERK                  0.4
    651 | #define DEFAULT_EJERK                  5.0
    ```
-   
+
    ```
-   1509 | #define SPEAKER
-   
-   1518 | #define LCD_FEEDBACK_FREQUENCY_DURATION_MS 2
-   1519 | #define LCD_FEEDBACK_FREQUENCY_HZ 1000
-   
+   1226 | #define EEPROM_SETTINGS // Enable for M500 and M501 commands
    ```
-   
+
    ```
    1257 | // Preheat Constants
    1258 | #define PREHEAT_1_TEMP_HOTEND 190
@@ -102,6 +98,16 @@ Used Components:
    1263 | #define PREHEAT_2_TEMP_BED     80
    1264 | #define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
    ```
+   
+   ```
+   1509 | #define SPEAKER
+   
+   1518 | #define LCD_FEEDBACK_FREQUENCY_DURATION_MS 2
+   1519 | #define LCD_FEEDBACK_FREQUENCY_HZ 1000
+   
+   ```
+   
+
 
    ```
    1429 | #define SDSUPPORT
