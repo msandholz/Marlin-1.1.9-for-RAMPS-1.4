@@ -42,6 +42,7 @@ Used Components:
    ```
   
    ```
+   312 | #define TEMP_SENSOR_0 1
    313 | #define TEMP_SENSOR_1 0
    314 | #define TEMP_SENSOR_2 0
    315 | #define TEMP_SENSOR_3 0
