@@ -128,5 +128,13 @@ Used Components:
   
   5. Load `U8glib` and copy it into the `library-folder` of the Arduino IDE.
    
-  6. Compile Files and upload it to Arduino-Mega 2560 - Board
+  6. Option: Dual Extruder (2in1)
+  
+   ```
+   149 | #define EXTRUDERS 2
+   ```
+   
+  7. Compile Files and upload it to Arduino-Mega 2560 - Board
+  
+  
    
