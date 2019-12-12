@@ -42,13 +42,13 @@ Used Components:
    ```
   
    ```
-   312 | #define TEMP_SENSOR_0 1
-   313 | #define TEMP_SENSOR_1 0
-   314 | #define TEMP_SENSOR_2 0
-   315 | #define TEMP_SENSOR_3 0
-   316 | #define TEMP_SENSOR_4 0
-   317 | #define TEMP_SENSOR_BED 1
-   318 | #define TEMP_SENSOR_CHAMBER 0
+   313 | #define TEMP_SENSOR_0 1
+   314 | #define TEMP_SENSOR_1 0
+   315 | #define TEMP_SENSOR_2 0
+   316 | #define TEMP_SENSOR_3 0
+   317 | #define TEMP_SENSOR_4 0
+   318 | #define TEMP_SENSOR_BED 1
+   319 | #define TEMP_SENSOR_CHAMBER 0
    ```
    
    ```
