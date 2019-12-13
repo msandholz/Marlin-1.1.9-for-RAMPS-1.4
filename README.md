@@ -79,8 +79,8 @@ Used Components:
    ```
    
    ```
-   648 | #define DEFAULT_XJERK                 20.0
-   649 | #define DEFAULT_YJERK                 20.0
+   648 | #define DEFAULT_XJERK                  5.0
+   649 | #define DEFAULT_YJERK                  5.0
    650 | #define DEFAULT_ZJERK                  0.4
    651 | #define DEFAULT_EJERK                  5.0
    ```
@@ -133,6 +133,7 @@ Used Components:
   
    ```
    149 | #define EXTRUDERS 2
+   155 | #define SINGLENOZZLE
    ```
    
   7. Compile Files and upload it to Arduino-Mega 2560 - Board
