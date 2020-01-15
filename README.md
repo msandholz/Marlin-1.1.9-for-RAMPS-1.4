@@ -136,6 +136,16 @@ Used Components:
    155 | #define SINGLENOZZLE
    ```
    
+   6. Option: Dual Extruder (2in2)
+  
+   ```
+   149 | #define EXTRUDERS 2
+   
+   306 | #define TEMP_SENSOR_0 1
+   307 | #define TEMP_SENSOR_1 1
+   ```
+   
+   
   7. Compile Files and upload it to Arduino-Mega 2560 - Board
   
   
