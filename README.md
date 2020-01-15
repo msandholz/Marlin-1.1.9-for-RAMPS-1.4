@@ -140,6 +140,7 @@ Used Components:
   
    ```
    149 | #define EXTRUDERS 2
+   155 | //#define SINGLENOZZLE
    
    306 | #define TEMP_SENSOR_0 1
    307 | #define TEMP_SENSOR_1 1
