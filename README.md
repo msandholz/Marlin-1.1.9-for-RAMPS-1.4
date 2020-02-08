@@ -25,7 +25,7 @@ Used Components:
    
    ```
    133 | #ifndef MOTHERBOARD
-   134 |    #define MOTHERBOARD BOARD_RAMPS_14_EFB
+   134 |    #define MOTHERBOARD BOARD_RAMPS_14_EEB
    135 | #endif
    ```
    
@@ -142,8 +142,8 @@ Used Components:
    149 | #define EXTRUDERS 2
    155 | //#define SINGLENOZZLE
    
-   306 | #define TEMP_SENSOR_0 1
-   307 | #define TEMP_SENSOR_1 1
+   306 | #define TEMP_SENSOR_0 5
+   307 | #define TEMP_SENSOR_1 5
    ```
   
   8. Option: Optical Endstops
