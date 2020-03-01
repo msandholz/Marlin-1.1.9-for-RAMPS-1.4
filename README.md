@@ -142,6 +142,8 @@ Used Components:
    149 | #define EXTRUDERS 2
    155 | //#define SINGLENOZZLE
    
+   229 | #define HOTEND_OFFSET_X {0.0, 18.00} // (in mm) for each extruder, offset of the hotend on the X axis
+   
    306 | #define TEMP_SENSOR_0 5
    307 | #define TEMP_SENSOR_1 5
    ```
@@ -150,8 +152,8 @@ Used Components:
   
    ```
    522 | // Mechanical endstop with COM to ground and NC to Signal uses "false" here (most common setup).
-   523 | #define X_MIN_ENDSTOP_INVERTING true // set to true to invert the logic of the endstop.
-   524 | #define Y_MIN_ENDSTOP_INVERTING true // set to true to invert the logic of the endstop.
+   523 | #define X_MIN_ENDSTOP_INVERTING false // set to true to invert the logic of the endstop.
+   524 | #define Y_MIN_ENDSTOP_INVERTING false // set to true to invert the logic of the endstop.
    525 | #define Z_MIN_ENDSTOP_INVERTING true // set to true to invert the logic of the endstop.
    526 | #define X_MAX_ENDSTOP_INVERTING false // set to true to invert the logic of the endstop.
    527 | #define Y_MAX_ENDSTOP_INVERTING false // set to true to invert the logic of the endstop.
