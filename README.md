@@ -181,7 +181,6 @@ Used Components:
    M303 E1 S230 C8
    M301 E1 P19.10 I1.30 D70.01
    M500
-   
    ```
   
   
