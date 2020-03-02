@@ -164,5 +164,26 @@ Used Components:
    
   9. Compile Files and upload it to Arduino-Mega 2560 - Board
   
+  # PID autotunig
+  
+   ```
+   Heatbed:
+   M303 E-1 S80 C8
+   M301 E-1 P19.10 I1.30 D70.01
+   M500
+
+   Extruder 1:
+   M303 E0 S230 C8
+   M301 E0 P19.10 I1.30 D70.01
+   M500
+
+   Extruder 2:
+   M303 E1 S230 C8
+   M301 E1 P19.10 I1.30 D70.01
+   M500
+   
+   ```
+  
+  
   
    
