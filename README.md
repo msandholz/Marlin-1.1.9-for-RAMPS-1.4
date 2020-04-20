@@ -164,7 +164,7 @@ Used Components:
    
   9. Compile Files and upload it to Arduino-Mega 2560 - Board
   
-  # PID autotunig
+  # PID autotuning
   
    ```
    Heatbed:
@@ -183,6 +183,12 @@ Used Components:
    M500
    ```
   
-  
+  # RRD Fan Extender
+   In der Datei pins_RAMPS.h folgendes ändern:
+   
+   ```
+    #ifndef RAMPS_D9_PIN
+     #define RAMPS_D9_PIN      6
+    ```
   
    
