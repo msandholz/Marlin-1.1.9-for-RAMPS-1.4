@@ -192,17 +192,12 @@ Either scroll Down or hit Ctrl+f and search for CONTROLLERFAN_PIN
 
 It is disabled as default. Change the Pin from -1 to 5 as shown in the image.
 Define for how many seconds the fan should run after the last motor activity and set the speed your fan should go.
-
+```
 //This is for controlling a fan to cool down the stepper drivers
 //it will turn on when any driver is enabled
 //and turn off after the set amount of seconds from last driver being disabled again
 #define CONTROLLERFAN_PIN 5 //Pin used for the fan to cool controller (-1 to disable)
 #define CONTROLLERFAN_SECS 60 //How many seconds, after all motors were disabled, the fan should run
 #define CONTROLLERFAN_SPEED 200  // Change to 255 for full speed
-   
-   ```
-    #ifndef RAMPS_D9_PIN
-     #define RAMPS_D9_PIN      6
-    ```
-  
+```
    
